@@ -87,6 +87,7 @@ body {
   cursor: pointer;
 }
 
+
 /* screens bigger than 900px */
 @media (min-width: 900px) {
   .page h1 {

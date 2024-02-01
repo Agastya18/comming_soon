@@ -9,6 +9,8 @@ import './styles.css';
 import videoBg from '../src/assets/video.mp4';
 
 const App = () => {
+  
+  
   return (
     <section className='page'>
       {/* overlay */}
@@ -17,13 +19,13 @@ const App = () => {
       <div className='page__content'>
         <h1>Launching Soon</h1>
         <h3>
-          Leave your email and we'll let you know once the site goes live.
+          Please wait and we'll let you know once our ecommerce  site goes live.
         </h3>
         <FlipClockCountdown
           className='flip-clock'
-          to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+          to={new Date().getTime() + 360 * 3600 * 1000 + 5000}
         />
-        <button className='btn'>Notify me</button>
+        {/* <button className='btn' onClick={()=>{document.getElementsByClassName('btn').value = 'thanks' }}>Notify me</button> */}
       </div>
     </section>
   );
